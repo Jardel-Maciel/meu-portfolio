@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel</title>
+</head>
+<body>
+    <h1>Adicionar projeto</h1>
+
+    <label>Titulo do Projeto</label>
+    <input type="text" id="titulo" placeholder="Ex: App de finanças">
+
+    <label>Descrição curta</label>
+    <textarea id="descrição" rows="10" placeholder="Fale oque o projeto faz em polcas palavras."></textarea>
+
+    <label>Tecnologias (separadas por virgulas)</label>
+    <input type="text" id="tech" placeholder="https://github.io" >
+
+    <label>
+        <input type="checkbox" id="destaque">Projeto em destaque
+    </label>
+
+    <button onclick="gerarComClaude()">
+        Gerar descrição com Claude
+    </button>
+    
+
+    <div id="preview"></div>
+
+    <button onclick="salvarProjeto()" id="btn-salvar" disabled>
+        Salvar projeto
+    </button>
+
+    
+</body>
+</html>

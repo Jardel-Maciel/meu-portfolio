@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "titulo": "Sistema SaaS, De Gestão De Estoque",
+        "descrição": "Sistema web de gestão de produtos.",
+        "tech": ["Python", "Flask", "JavaScript", "JWT", "Multe-Tenet"],
+        "link": "https://jardel-maciel.github.io/Controle-De-Estoque/",
+        "destaque": true 
+
+    }
+]
